@@ -1,0 +1,31 @@
+.singlecard{
+    width: 250px;
+    height: 460px;
+    border: 1px solid rgb(129, 125, 125);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.singlecard img{
+    width: 250px;
+    height: 270px;
+}
+.singlecard a{
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+}
+.priceandbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardsingle{
+    padding: 7px;
+    background-color: rgb(114, 86, 86);
+    border: none;
+    color: white;
+}
+.cardsingle:hover{
+    background-color: rgb(172, 134, 134);
+    cursor: pointer;
+}

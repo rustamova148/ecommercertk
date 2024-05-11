@@ -1,0 +1,11 @@
+.homesec{
+    width: 100%;
+    min-height: 140vh;
+    background-image: url('../../assets/proxy-image.jpeg');
+    background-size: cover;
+
+}
+.homesec p{
+    color: transparent;
+    margin-top: -10px;
+}
