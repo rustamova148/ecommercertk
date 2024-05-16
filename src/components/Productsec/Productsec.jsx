@@ -1,4 +1,3 @@
-import React from 'react'
 import { useGetAllProductsQuery } from '../../redux/service/dummyData';
 import SingleCard from '../SingleCard/SingleCard';
 import './Productsec.css'
@@ -20,8 +19,9 @@ console.log(data);
 
   return (
     <div className='productsec'>
-        {data?.products.map((p) =>(
-            <SingleCard p={p} />
+        {data?.products.map((p,i) =>(
+            <SingleCard id={p.id} key={i} thumbnail={p.thumbnail} title={p.title}
+            description={p.description} price={p.price} />
         ))}
     </div>
   )
